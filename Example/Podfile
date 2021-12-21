@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BBFURenderKit_Tests' do
+  pod 'BBFURenderKit', :path => '../'
+  
+  
+end
