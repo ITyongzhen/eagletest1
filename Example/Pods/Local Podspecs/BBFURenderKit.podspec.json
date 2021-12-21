@@ -1,0 +1,22 @@
+{
+  "name": "BBFURenderKit",
+  "version": "0.1.0",
+  "summary": "A short description of BBFURenderKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/eagle_01yz@163.com/BBFURenderKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "eagle_01yz@163.com": "yin.yongzhen@olaola.chat"
+  },
+  "source": {
+    "git": "https://github.com/eagle_01yz@163.com/BBFURenderKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BBFURenderKit/Classes/**/*"
+}

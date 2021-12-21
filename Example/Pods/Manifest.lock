@@ -1,0 +1,16 @@
+PODS:
+  - BBFURenderKit (0.1.0)
+
+DEPENDENCIES:
+  - BBFURenderKit (from `../`)
+
+EXTERNAL SOURCES:
+  BBFURenderKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BBFURenderKit: 838da1ad9096fefc06079ccf8fd4f24559a890fb
+
+PODFILE CHECKSUM: 33ffb139ef1a89bedd261bd21dadb4f4a9230101
+
+COCOAPODS: 1.11.0.beta.2

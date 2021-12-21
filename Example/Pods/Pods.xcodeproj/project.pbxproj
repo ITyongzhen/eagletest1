@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EF42F2D67C40CCC1729CE479890004 /* FURenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6196E5EC4FD73895FC3C5595D479B0CC /* FURenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		043ACA4D61004E32D521181CF9FAE90F /* FURenderIO.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5F36D8F7C3406EF7F12CA5FD8EE71C /* FURenderIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09BD662747351B0B41DA23D7F4891E86 /* FUPoster.h in Headers */ = {isa = PBXBuildFile; fileRef = 090AA8D36DC3E23EBB09A4CC70E05A2C /* FUPoster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C974A9C6F704F67F2EF7EC4573C6CDE /* FUEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D9CEA76859A35A49D4A4896676FDF7 /* FUEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125EFD16B48601A77F282F2AF74D06F1 /* Pods-BBFURenderKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAB69D7A4DE4A087B6CAA3BA6D3575E /* Pods-BBFURenderKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163DE141CB13B48D782BC0ACE8558319 /* FUGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 208D9E4BF6586F5610B5C91C6AD92224 /* FUGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18ACE9F52511CF8AD53038DD6C8BE9B1 /* FULightMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C41846671D221EB674E572BBFE23A6 /* FULightMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA32C93CF944E6A591D457C120973BE /* FUOvonicMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A74132A6927F78C82A94457A1E25E4D /* FUOvonicMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F915B041063BFD59B16644B179E505D /* FUAIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A738FA4C1A64882C83CFE0EC00344F0 /* FUAIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23BA0647AE47EF17F8A2F8D5947C961C /* FUBodyBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = B7003A9A27946E8FBFC8CCD9D6EFE2EC /* FUBodyBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2545BB5B4A331357C1555817A3011A4D /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D5CF48B5DFA140A420915B9A295940 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C202F4CD1CCDF55BED8DE044B5BFD3 /* FUGreenScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BDCD9B588CD62D5651393A41D0C8CD /* FUGreenScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29099303BF54FFAFC10047BE5066000E /* FUItem+createTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 3529D314446A8A80797A9BC03A7A9983 /* FUItem+createTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED4995A4066C449573A0BCD91CEE508 /* FUFaceRectInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A92C94D57CB0F8EEA58E8A2FEFA1D40 /* FUFaceRectInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3142C85ED10C60344B1D7C1B9F61F3C1 /* BBFURenderKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9846298D26C27FB83F0980A27A545D3B /* BBFURenderKit-dummy.m */; };
+		32B2E769A4A517451FB2DE825BBE1E36 /* UIImage+FURenderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B76FACAAC46D64F0EFD97F712F95BBB6 /* UIImage+FURenderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C71F912A374580FE62C0E0C421F92C /* FUNormalConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 007A81D0F092E0BAEB3AE31E20BE1312 /* FUNormalConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F51D1378B5C94D8C6F25BC2F7D3CEA /* FUGroupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFCC7180A192C2DBACC03FD759A5CEF /* FUGroupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379395B77144D82C5164320A775F6E17 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = BE268CC212F7372D48A3F4C808E6004F /* module.modulemap */; };
+		39A00237E8BFC51495AB0A4CB3D2ECC3 /* FUGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B9075AFA4B7550167090CCFE21FF57FC /* FUGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B8C0BF062DF435E00D3F37A5E50F346 /* FUAISegment.h in Headers */ = {isa = PBXBuildFile; fileRef = C5133AE6066C95C5E283282B6610AAE1 /* FUAISegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D25070387C5895FAF4C21B2BE3B6163 /* FUFacepupKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F794D6008A504DE5C5B7EC3A1A5CC22 /* FUFacepupKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D452ACEDFB6552A1B2FB2AAA3E65452 /* FURecordEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 430D30D99A4CDA9DDD8515C522761535 /* FURecordEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D65BC65E2C461C5438BFDDCA3168B5C /* FUCameraAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEC0CD86C11F4F63F8B31D5E32FCB3A /* FUCameraAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4343D251505A870C051E062D22487886 /* FUMakeUpTextureKey.h in Headers */ = {isa = PBXBuildFile; fileRef = FF01FA879C49F8264BCCB4107A87FFD9 /* FUMakeUpTextureKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474047CAB2F7E0518D2B5FB8AD5561BD /* FUAvatarColorKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = F48FC8364F5919BD0D3CF904C250ADB1 /* FUAvatarColorKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488E396EA9375D2820FCC234BA9357FA /* FUSticker.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF40C703598F88588031A47CEA152EA /* FUSticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3A493FF2C3D786067313DACB569510 /* FUKeysDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 731582B5A22BA09B6CF65F0962332D37 /* FUKeysDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BFB8203C6DF90CC215DDDED026C13ED /* FUFilterDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C3E54AB3128F0C97D4FD6A1A2C8620 /* FUFilterDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52A49891F1F74AB78A23F5B9EF37F1CD /* FUSceneCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD437CC94BB1C2A7DAE480B9BAFA0EA /* FUSceneCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53B369CFB41B2CFB90EAA673F9BBBB2A /* FULightMakeUpTextureKeyDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B595DF213A42D71CC6FB8B4268709AE4 /* FULightMakeUpTextureKeyDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54300D74D5B016E7F3D5FEA2767F279B /* FUBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C84C3D4DDFC12D6792329CC4E0DA07 /* FUBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598E27C8EF9C3D3E1DC259C824B4618D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		602DD28EBA088B8C81E862FFB69AFE65 /* FURenderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D84F11906279CD56877DD07ACC5064 /* FURenderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66273332B0AFA07A94D529E7756B37A3 /* FURenderKit快速集成文档.md in Sources */ = {isa = PBXBuildFile; fileRef = FC933E11FA676273F399B75DF2E251D5 /* FURenderKit快速集成文档.md */; };
+		7353E64235A50F3CE0EE0A3F86FADAFA /* FUAvatar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBE08F293CE2701B5E0D90F6CEE0269 /* FUAvatar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C2D37FD2114FD3AED70BDF66A0CE87 /* FUMakeupValueDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BD564ADF518DA4D788FA63896CC4A6A5 /* FUMakeupValueDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753F3FD79E30E636B315D256CEBC41A7 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = E3DB811031F26E44AA894417C077B6E6 /* CodeResources */; };
+		759D5FCEDB58B975AB4DA06016B95CC1 /* FUAnimoji.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9F1AE793AA6EA390829EC5F0A0207D /* FUAnimoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78531CCD49FB7D4E403D3DE6650C1FB6 /* FUCaptureCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F275E504D60B39D1D4344195DC1A1E3 /* FUCaptureCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		822076B572453E65452D6B34489657DE /* FUInternalCameraSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E004C002AEE996C99A271EF30125617 /* FUInternalCameraSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9184EE390DEBEB323F0831CF0B426B8A /* FUGLDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D12A2BAF6F8F3B998DB14BBDAED665 /* FUGLDisplayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BEFA78FCBCE91C282866992DE875A9 /* CNamaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 25787DA1E2C2911AA5D74D2DDAF1426E /* CNamaSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D39AEB8C5413D7AFBD86A66A292E8C /* FUMusicFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F8BD0C49CDD143A09446BBA66E9BD8 /* FUMusicFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9835AB71084FD052F75705E2E2BF3FAB /* FUConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EDACF798AC6BD78A2A4321AA67B7772D /* FUConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A72E8D9461627177D7D3BE1F8BD5DB7 /* FURenderableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DED9FA9FD9CC0F1786978492D0D8381D /* FURenderableObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B9F97D459E1443627F68A989A34B0F9 /* FUMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEFB6FA9A7EF384023ABF4255F66424 /* FUMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08A73C834ADB9FF527E39CEBD5B2413 /* FUMakeUpChildStrengthDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1F902DBE61A8BDF7EEAEA11356863A /* FUMakeUpChildStrengthDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1819E776576EA1BA2DD0103A26744C3 /* FUActionRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 93013115150BBFA8B480A01502DF9D13 /* FUActionRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A24BF5402D0E56EF154FB0EBE71BD4C7 /* FUItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D933430962734D28EE1A27D2A8C76B4 /* FUItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A51E30EFA93F6C3E16EF7A6BAEBE581F /* FUHairBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA1F6A426A5CE450306E1284F672C9E /* FUHairBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59F6E080A4888CD3D089358030632D4 /* BBFURenderKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D21A313AC5746C6723A93E5B7BE36852 /* BBFURenderKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A70B6BDD4B023D69623B9DACF2B77C38 /* FULight.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F9AF39776E50EE6D7594D458A82472 /* FULight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C85FA06C9B85716C451DF61E65CFF1 /* FUMakeUpColorsKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCC5DB99910A8D402DB2761A97BC9F1 /* FUMakeUpColorsKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8FA4234734850709E593EBDCA77AC3D /* FUHairDefineKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA7E950396F460FC3DC816D3FEBA0D3 /* FUHairDefineKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA017227208D614EA88F6E5D859F945 /* FUAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B7A02CCB97428FAFCEBF1D8EA74446 /* FUAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC40F416DDCAF62F6C88DD1D3C3AAC46 /* FUCLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E840E10BC49211424BFFAF8CF63A53E0 /* FUCLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC8E5A518F945F166D29C7370988C827 /* FUBodyBeautyDefineKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = B14FA09C7C6C3BF0D1B8674636B9F733 /* FUBodyBeautyDefineKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC81C600AD256096A60C3BDEE8A622 /* FUStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6C86D01416EA67A21E1FC7F47F8A1F /* FUStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9E11DE7A4195ACBB6D89D21AE19856 /* Pods-BBFURenderKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942444E1CA42E2DDD000944BE80C3A2B /* Pods-BBFURenderKit_Tests-dummy.m */; };
+		C0F1B2450DE71BDCDFF5273E3A1CA3C4 /* FUComicFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD4FE3F75E0F3774BC5AF0AFAF6946D /* FUComicFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21845914C679896B52FDD1879F5FD9E /* UIDevice+FURenderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A71E84D9EF69A6AB466EECB9ABC36D7 /* UIDevice+FURenderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C386B4C0DC33FD967C3E8DCC39C48CC5 /* FUQualitySticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8FE34B92C23253FD534EC276FB3CD3 /* FUQualitySticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C467826E4F4129B5208B85F66519A815 /* FUDeformationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 062725A9D01E5E3DC6908ABE4A54979D /* FUDeformationKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57B9AAD462828C94382FD579BC4369B /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E2E9947BB946F5285D0932701837D152 /* Info.plist */; };
+		C65FE4EE1E69AB20B1E82AD4612C5FE4 /* FUStickerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C97EBBC10FFA291B62800DC8BDA8AEC /* FUStickerContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BEE12B610F509272E24E22919FA906 /* FUAIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8201803239F303BF19D8AC6EB28840CD /* FUAIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6013391BA93E0065B2C800CC51CD3A2 /* FUImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D53448C0C58AEA777FB400527B3827 /* FUImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B3A70A06D1E6C8C3D7EDA82556EC83 /* FUParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3C163C87F6932223302D57013EAC4F /* FUParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9583B0BD8E544AE5FF5D272AA68693 /* FUFacialFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E08A7D50D34E2B45CC517410CC653B4 /* FUFacialFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDD89EE8DB312A82BE3D60338AD51BBD /* FURenderKit in Sources */ = {isa = PBXBuildFile; fileRef = 75125B355100B88DCCFEF37370DD1B59 /* FURenderKit */; };
+		E223301C049333A87A560A2673D91C44 /* FUAvatarMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = BC41CE8C52241D0126DDE65F52F6AF65 /* FUAvatarMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E781501459DC5CD616AADA5D47701333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EAB64E275EC6C09A7A1B03051A80B348 /* FUScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B73260247021B91DE194C649B9654EE /* FUScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65C1F3A6624137BEBAEE977854D9210 /* FUSetupConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B5AC7914263CCDD16FB92E4C75A31176 /* FUSetupConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF46995E480580F01D46F2836B928724 /* FUBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = 604A75A8CC1201123B81BCE0436739BA /* FUBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72B18537B75E27395B62B41E04341B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36577BEC6CBB932A1F7C7A67ECD8A54B;
+			remoteInfo = BBFURenderKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007A81D0F092E0BAEB3AE31E20BE1312 /* FUNormalConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUNormalConfig.h; sourceTree = "<group>"; };
+		01C362FECA7FBD3BCD08F736CBACD0EA /* Pods-BBFURenderKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBFURenderKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03F9AF39776E50EE6D7594D458A82472 /* FULight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULight.h; sourceTree = "<group>"; };
+		062725A9D01E5E3DC6908ABE4A54979D /* FUDeformationKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUDeformationKeys.h; sourceTree = "<group>"; };
+		090AA8D36DC3E23EBB09A4CC70E05A2C /* FUPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUPoster.h; sourceTree = "<group>"; };
+		0AEFB6FA9A7EF384023ABF4255F66424 /* FUMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeup.h; sourceTree = "<group>"; };
+		0D933430962734D28EE1A27D2A8C76B4 /* FUItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUItem.h; sourceTree = "<group>"; };
+		0E08A7D50D34E2B45CC517410CC653B4 /* FUFacialFeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFacialFeatures.h; sourceTree = "<group>"; };
+		13F0ACB40180C100E8A0BD6479B62A5A /* BBFURenderKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBFURenderKit-prefix.pch"; sourceTree = "<group>"; };
+		18C84C3D4DDFC12D6792329CC4E0DA07 /* FUBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBackground.h; sourceTree = "<group>"; };
+		1A738FA4C1A64882C83CFE0EC00344F0 /* FUAIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAIConfig.h; sourceTree = "<group>"; };
+		1B1F902DBE61A8BDF7EEAEA11356863A /* FUMakeUpChildStrengthDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpChildStrengthDefineKey.h; sourceTree = "<group>"; };
+		1C134F2949EE1CEFC395B8C4436D9792 /* Pods-BBFURenderKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBFURenderKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E004C002AEE996C99A271EF30125617 /* FUInternalCameraSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUInternalCameraSetting.h; sourceTree = "<group>"; };
+		1F5753EBC354D0748DE4C5980F1D36D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		208D9E4BF6586F5610B5C91C6AD92224 /* FUGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGesture.h; sourceTree = "<group>"; };
+		25787DA1E2C2911AA5D74D2DDAF1426E /* CNamaSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CNamaSDK.h; sourceTree = "<group>"; };
+		2A92C94D57CB0F8EEA58E8A2FEFA1D40 /* FUFaceRectInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFaceRectInfo.h; sourceTree = "<group>"; };
+		2D6C86D01416EA67A21E1FC7F47F8A1F /* FUStruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUStruct.h; sourceTree = "<group>"; };
+		2F794D6008A504DE5C5B7EC3A1A5CC22 /* FUFacepupKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFacepupKeys.h; sourceTree = "<group>"; };
+		3529D314446A8A80797A9BC03A7A9983 /* FUItem+createTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FUItem+createTexture.h"; sourceTree = "<group>"; };
+		3A8FE34B92C23253FD534EC276FB3CD3 /* FUQualitySticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUQualitySticker.h; sourceTree = "<group>"; };
+		3B73260247021B91DE194C649B9654EE /* FUScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUScene.h; sourceTree = "<group>"; };
+		3BAB69D7A4DE4A087B6CAA3BA6D3575E /* Pods-BBFURenderKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBFURenderKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3CA1FF809704C58CA1027A0FEF6463B3 /* BBFURenderKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBFURenderKit.debug.xcconfig; sourceTree = "<group>"; };
+		3CCC5DB99910A8D402DB2761A97BC9F1 /* FUMakeUpColorsKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpColorsKey.h; sourceTree = "<group>"; };
+		3F3C163C87F6932223302D57013EAC4F /* FUParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUParam.h; sourceTree = "<group>"; };
+		41D53448C0C58AEA777FB400527B3827 /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImageHelper.h; sourceTree = "<group>"; };
+		430D30D99A4CDA9DDD8515C522761535 /* FURecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURecordEncoder.h; sourceTree = "<group>"; };
+		4FBE08F293CE2701B5E0D90F6CEE0269 /* FUAvatar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatar.h; sourceTree = "<group>"; };
+		50F8BD0C49CDD143A09446BBA66E9BD8 /* FUMusicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMusicFilter.h; sourceTree = "<group>"; };
+		52D5CF48B5DFA140A420915B9A295940 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		5D6BC358B57C8672334C6B9395169331 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		604A75A8CC1201123B81BCE0436739BA /* FUBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBeauty.h; sourceTree = "<group>"; };
+		6196E5EC4FD73895FC3C5595D479B0CC /* FURenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderer.h; sourceTree = "<group>"; };
+		63821899DA6BB94ABF5CF8E3CA88A038 /* Pods-BBFURenderKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBFURenderKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6AA1F6A426A5CE450306E1284F672C9E /* FUHairBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUHairBeauty.h; sourceTree = "<group>"; };
+		6C97EBBC10FFA291B62800DC8BDA8AEC /* FUStickerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUStickerContainer.h; sourceTree = "<group>"; };
+		6F275E504D60B39D1D4344195DC1A1E3 /* FUCaptureCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCaptureCamera.h; sourceTree = "<group>"; };
+		6FD437CC94BB1C2A7DAE480B9BAFA0EA /* FUSceneCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSceneCamera.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731582B5A22BA09B6CF65F0962332D37 /* FUKeysDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUKeysDefine.h; sourceTree = "<group>"; };
+		73A5C32DF286A3767DCF98CA0BA0CC25 /* Pods-BBFURenderKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBFURenderKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		75125B355100B88DCCFEF37370DD1B59 /* FURenderKit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = FURenderKit; path = BBFURenderKit/Classes/FURenderKit.framework/FURenderKit; sourceTree = "<group>"; };
+		7A71E84D9EF69A6AB466EECB9ABC36D7 /* UIDevice+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FURenderKit.h"; sourceTree = "<group>"; };
+		7A74132A6927F78C82A94457A1E25E4D /* FUOvonicMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUOvonicMap.h; sourceTree = "<group>"; };
+		7E922CD3B31454A64CDAF252A0E6A23A /* BBFURenderKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BBFURenderKit; path = BBFURenderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA7E950396F460FC3DC816D3FEBA0D3 /* FUHairDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUHairDefineKey.h; sourceTree = "<group>"; };
+		7FB7B6FA4607789F52C704D5CF6C5FDC /* Pods-BBFURenderKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBFURenderKit_Tests.modulemap"; sourceTree = "<group>"; };
+		8201803239F303BF19D8AC6EB28840CD /* FUAIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAIKit.h; sourceTree = "<group>"; };
+		86C3E54AB3128F0C97D4FD6A1A2C8620 /* FUFilterDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUFilterDefineKey.h; sourceTree = "<group>"; };
+		86C41846671D221EB674E572BBFE23A6 /* FULightMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULightMakeup.h; sourceTree = "<group>"; };
+		8D4018A119CD9152ED72C52B7A11D42A /* BBFURenderKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BBFURenderKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		93013115150BBFA8B480A01502DF9D13 /* FUActionRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUActionRecognition.h; sourceTree = "<group>"; };
+		942444E1CA42E2DDD000944BE80C3A2B /* Pods-BBFURenderKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBFURenderKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		9846298D26C27FB83F0980A27A545D3B /* BBFURenderKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBFURenderKit-dummy.m"; sourceTree = "<group>"; };
+		9BD4FE3F75E0F3774BC5AF0AFAF6946D /* FUComicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUComicFilter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4B7A02CCB97428FAFCEBF1D8EA74446 /* FUAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAnimation.h; sourceTree = "<group>"; };
+		A8BDCD9B588CD62D5651393A41D0C8CD /* FUGreenScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGreenScreen.h; sourceTree = "<group>"; };
+		AD6985327A13BF57193ABA752D306547 /* Pods-BBFURenderKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBFURenderKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AEFCC7180A192C2DBACC03FD759A5CEF /* FUGroupAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGroupAnimation.h; sourceTree = "<group>"; };
+		B14FA09C7C6C3BF0D1B8674636B9F733 /* FUBodyBeautyDefineKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBodyBeautyDefineKeys.h; sourceTree = "<group>"; };
+		B595DF213A42D71CC6FB8B4268709AE4 /* FULightMakeUpTextureKeyDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FULightMakeUpTextureKeyDefineKey.h; sourceTree = "<group>"; };
+		B5AC7914263CCDD16FB92E4C75A31176 /* FUSetupConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSetupConfig.h; sourceTree = "<group>"; };
+		B7003A9A27946E8FBFC8CCD9D6EFE2EC /* FUBodyBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUBodyBeauty.h; sourceTree = "<group>"; };
+		B76FACAAC46D64F0EFD97F712F95BBB6 /* UIImage+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FURenderKit.h"; sourceTree = "<group>"; };
+		B9075AFA4B7550167090CCFE21FF57FC /* FUGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGLContext.h; sourceTree = "<group>"; };
+		BC41CE8C52241D0126DDE65F52F6AF65 /* FUAvatarMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatarMakeup.h; sourceTree = "<group>"; };
+		BC9F1AE793AA6EA390829EC5F0A0207D /* FUAnimoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAnimoji.h; sourceTree = "<group>"; };
+		BD564ADF518DA4D788FA63896CC4A6A5 /* FUMakeupValueDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeupValueDefine.h; sourceTree = "<group>"; };
+		BE268CC212F7372D48A3F4C808E6004F /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		BFEC0CD86C11F4F63F8B31D5E32FCB3A /* FUCameraAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCameraAnimation.h; sourceTree = "<group>"; };
+		C4D18F503D425144EC33C7D0865670FA /* Pods-BBFURenderKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BBFURenderKit_Tests"; path = Pods_BBFURenderKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5133AE6066C95C5E283282B6610AAE1 /* FUAISegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAISegment.h; sourceTree = "<group>"; };
+		C560033AE054D5E9D18ADB628EF00801 /* BBFURenderKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBFURenderKit.release.xcconfig; sourceTree = "<group>"; };
+		C780579BEE6C7F04A515C9D1DA856106 /* BBFURenderKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BBFURenderKit.modulemap; sourceTree = "<group>"; };
+		D1D9CEA76859A35A49D4A4896676FDF7 /* FUEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUEnum.h; sourceTree = "<group>"; };
+		D21A313AC5746C6723A93E5B7BE36852 /* BBFURenderKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBFURenderKit-umbrella.h"; sourceTree = "<group>"; };
+		D7516C9F3AC916A428756988C2EE0DA1 /* BBFURenderKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BBFURenderKit-Info.plist"; sourceTree = "<group>"; };
+		D7D12A2BAF6F8F3B998DB14BBDAED665 /* FUGLDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUGLDisplayView.h; sourceTree = "<group>"; };
+		D8D84F11906279CD56877DD07ACC5064 /* FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderKit.h; sourceTree = "<group>"; };
+		DED9FA9FD9CC0F1786978492D0D8381D /* FURenderableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderableObject.h; sourceTree = "<group>"; };
+		E2E9947BB946F5285D0932701837D152 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = BBFURenderKit/Classes/FURenderKit.framework/Info.plist; sourceTree = "<group>"; };
+		E3DB811031F26E44AA894417C077B6E6 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
+		E840E10BC49211424BFFAF8CF63A53E0 /* FUCLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUCLIColor.h; sourceTree = "<group>"; };
+		ED5F36D8F7C3406EF7F12CA5FD8EE71C /* FURenderIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FURenderIO.h; sourceTree = "<group>"; };
+		EDACF798AC6BD78A2A4321AA67B7772D /* FUConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUConfig.h; sourceTree = "<group>"; };
+		F48FC8364F5919BD0D3CF904C250ADB1 /* FUAvatarColorKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUAvatarColorKeys.h; sourceTree = "<group>"; };
+		F8AFD3E038F988F7700A9A55E594201C /* Pods-BBFURenderKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBFURenderKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC933E11FA676273F399B75DF2E251D5 /* FURenderKit快速集成文档.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = "FURenderKit快速集成文档.md"; path = "BBFURenderKit/Classes/FURenderKit.framework/FURenderKit快速集成文档.md"; sourceTree = "<group>"; };
+		FF01FA879C49F8264BCCB4107A87FFD9 /* FUMakeUpTextureKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUMakeUpTextureKey.h; sourceTree = "<group>"; };
+		FFF40C703598F88588031A47CEA152EA /* FUSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUSticker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865A43B0FE919DA670F0F8B8436C72EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598E27C8EF9C3D3E1DC259C824B4618D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F02FAEC2A0A706935DF748046516044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E781501459DC5CD616AADA5D47701333 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0000C39DD78DACD65D3D3878B4A3CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C16EE094EB73EA1A794AC87B9E174A4 /* Pods-BBFURenderKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		215BF0A12C1FD218E53709944FCB0012 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				25787DA1E2C2911AA5D74D2DDAF1426E /* CNamaSDK.h */,
+				93013115150BBFA8B480A01502DF9D13 /* FUActionRecognition.h */,
+				1A738FA4C1A64882C83CFE0EC00344F0 /* FUAIConfig.h */,
+				8201803239F303BF19D8AC6EB28840CD /* FUAIKit.h */,
+				C5133AE6066C95C5E283282B6610AAE1 /* FUAISegment.h */,
+				A4B7A02CCB97428FAFCEBF1D8EA74446 /* FUAnimation.h */,
+				BC9F1AE793AA6EA390829EC5F0A0207D /* FUAnimoji.h */,
+				4FBE08F293CE2701B5E0D90F6CEE0269 /* FUAvatar.h */,
+				F48FC8364F5919BD0D3CF904C250ADB1 /* FUAvatarColorKeys.h */,
+				BC41CE8C52241D0126DDE65F52F6AF65 /* FUAvatarMakeup.h */,
+				18C84C3D4DDFC12D6792329CC4E0DA07 /* FUBackground.h */,
+				604A75A8CC1201123B81BCE0436739BA /* FUBeauty.h */,
+				B7003A9A27946E8FBFC8CCD9D6EFE2EC /* FUBodyBeauty.h */,
+				B14FA09C7C6C3BF0D1B8674636B9F733 /* FUBodyBeautyDefineKeys.h */,
+				BFEC0CD86C11F4F63F8B31D5E32FCB3A /* FUCameraAnimation.h */,
+				6F275E504D60B39D1D4344195DC1A1E3 /* FUCaptureCamera.h */,
+				E840E10BC49211424BFFAF8CF63A53E0 /* FUCLIColor.h */,
+				9BD4FE3F75E0F3774BC5AF0AFAF6946D /* FUComicFilter.h */,
+				EDACF798AC6BD78A2A4321AA67B7772D /* FUConfig.h */,
+				062725A9D01E5E3DC6908ABE4A54979D /* FUDeformationKeys.h */,
+				D1D9CEA76859A35A49D4A4896676FDF7 /* FUEnum.h */,
+				2F794D6008A504DE5C5B7EC3A1A5CC22 /* FUFacepupKeys.h */,
+				2A92C94D57CB0F8EEA58E8A2FEFA1D40 /* FUFaceRectInfo.h */,
+				0E08A7D50D34E2B45CC517410CC653B4 /* FUFacialFeatures.h */,
+				86C3E54AB3128F0C97D4FD6A1A2C8620 /* FUFilterDefineKey.h */,
+				208D9E4BF6586F5610B5C91C6AD92224 /* FUGesture.h */,
+				B9075AFA4B7550167090CCFE21FF57FC /* FUGLContext.h */,
+				D7D12A2BAF6F8F3B998DB14BBDAED665 /* FUGLDisplayView.h */,
+				A8BDCD9B588CD62D5651393A41D0C8CD /* FUGreenScreen.h */,
+				AEFCC7180A192C2DBACC03FD759A5CEF /* FUGroupAnimation.h */,
+				6AA1F6A426A5CE450306E1284F672C9E /* FUHairBeauty.h */,
+				7FA7E950396F460FC3DC816D3FEBA0D3 /* FUHairDefineKey.h */,
+				41D53448C0C58AEA777FB400527B3827 /* FUImageHelper.h */,
+				1E004C002AEE996C99A271EF30125617 /* FUInternalCameraSetting.h */,
+				0D933430962734D28EE1A27D2A8C76B4 /* FUItem.h */,
+				3529D314446A8A80797A9BC03A7A9983 /* FUItem+createTexture.h */,
+				731582B5A22BA09B6CF65F0962332D37 /* FUKeysDefine.h */,
+				03F9AF39776E50EE6D7594D458A82472 /* FULight.h */,
+				86C41846671D221EB674E572BBFE23A6 /* FULightMakeup.h */,
+				B595DF213A42D71CC6FB8B4268709AE4 /* FULightMakeUpTextureKeyDefineKey.h */,
+				0AEFB6FA9A7EF384023ABF4255F66424 /* FUMakeup.h */,
+				1B1F902DBE61A8BDF7EEAEA11356863A /* FUMakeUpChildStrengthDefineKey.h */,
+				3CCC5DB99910A8D402DB2761A97BC9F1 /* FUMakeUpColorsKey.h */,
+				FF01FA879C49F8264BCCB4107A87FFD9 /* FUMakeUpTextureKey.h */,
+				BD564ADF518DA4D788FA63896CC4A6A5 /* FUMakeupValueDefine.h */,
+				50F8BD0C49CDD143A09446BBA66E9BD8 /* FUMusicFilter.h */,
+				007A81D0F092E0BAEB3AE31E20BE1312 /* FUNormalConfig.h */,
+				7A74132A6927F78C82A94457A1E25E4D /* FUOvonicMap.h */,
+				3F3C163C87F6932223302D57013EAC4F /* FUParam.h */,
+				090AA8D36DC3E23EBB09A4CC70E05A2C /* FUPoster.h */,
+				3A8FE34B92C23253FD534EC276FB3CD3 /* FUQualitySticker.h */,
+				430D30D99A4CDA9DDD8515C522761535 /* FURecordEncoder.h */,
+				DED9FA9FD9CC0F1786978492D0D8381D /* FURenderableObject.h */,
+				6196E5EC4FD73895FC3C5595D479B0CC /* FURenderer.h */,
+				ED5F36D8F7C3406EF7F12CA5FD8EE71C /* FURenderIO.h */,
+				D8D84F11906279CD56877DD07ACC5064 /* FURenderKit.h */,
+				3B73260247021B91DE194C649B9654EE /* FUScene.h */,
+				6FD437CC94BB1C2A7DAE480B9BAFA0EA /* FUSceneCamera.h */,
+				B5AC7914263CCDD16FB92E4C75A31176 /* FUSetupConfig.h */,
+				FFF40C703598F88588031A47CEA152EA /* FUSticker.h */,
+				6C97EBBC10FFA291B62800DC8BDA8AEC /* FUStickerContainer.h */,
+				2D6C86D01416EA67A21E1FC7F47F8A1F /* FUStruct.h */,
+				52D5CF48B5DFA140A420915B9A295940 /* metamacros.h */,
+				7A71E84D9EF69A6AB466EECB9ABC36D7 /* UIDevice+FURenderKit.h */,
+				B76FACAAC46D64F0EFD97F712F95BBB6 /* UIImage+FURenderKit.h */,
+			);
+			name = Headers;
+			path = BBFURenderKit/Classes/FURenderKit.framework/Headers;
+			sourceTree = "<group>";
+		};
+		4E149209F9513D6F8FDE45862502F99B /* BBFURenderKit */ = {
+			isa = PBXGroup;
+			children = (
+				75125B355100B88DCCFEF37370DD1B59 /* FURenderKit */,
+				FC933E11FA676273F399B75DF2E251D5 /* FURenderKit快速集成文档.md */,
+				E2E9947BB946F5285D0932701837D152 /* Info.plist */,
+				C1E28F0589C4CE2AD1235E46B9265D64 /* _CodeSignature */,
+				215BF0A12C1FD218E53709944FCB0012 /* Headers */,
+				F20A1991D13C21C286C79A8272BA5106 /* Modules */,
+				71B0BFA910381C996D6380EFEB9FAAD1 /* Pod */,
+				583A0D6750128623107E95C42D40C7C8 /* Support Files */,
+			);
+			name = BBFURenderKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		583A0D6750128623107E95C42D40C7C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C780579BEE6C7F04A515C9D1DA856106 /* BBFURenderKit.modulemap */,
+				9846298D26C27FB83F0980A27A545D3B /* BBFURenderKit-dummy.m */,
+				D7516C9F3AC916A428756988C2EE0DA1 /* BBFURenderKit-Info.plist */,
+				13F0ACB40180C100E8A0BD6479B62A5A /* BBFURenderKit-prefix.pch */,
+				D21A313AC5746C6723A93E5B7BE36852 /* BBFURenderKit-umbrella.h */,
+				3CA1FF809704C58CA1027A0FEF6463B3 /* BBFURenderKit.debug.xcconfig */,
+				C560033AE054D5E9D18ADB628EF00801 /* BBFURenderKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BBFURenderKit";
+			sourceTree = "<group>";
+		};
+		71B0BFA910381C996D6380EFEB9FAAD1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8D4018A119CD9152ED72C52B7A11D42A /* BBFURenderKit.podspec */,
+				5D6BC358B57C8672334C6B9395169331 /* LICENSE */,
+				1F5753EBC354D0748DE4C5980F1D36D3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9C16EE094EB73EA1A794AC87B9E174A4 /* Pods-BBFURenderKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B6FA4607789F52C704D5CF6C5FDC /* Pods-BBFURenderKit_Tests.modulemap */,
+				01C362FECA7FBD3BCD08F736CBACD0EA /* Pods-BBFURenderKit_Tests-acknowledgements.markdown */,
+				F8AFD3E038F988F7700A9A55E594201C /* Pods-BBFURenderKit_Tests-acknowledgements.plist */,
+				942444E1CA42E2DDD000944BE80C3A2B /* Pods-BBFURenderKit_Tests-dummy.m */,
+				AD6985327A13BF57193ABA752D306547 /* Pods-BBFURenderKit_Tests-frameworks.sh */,
+				73A5C32DF286A3767DCF98CA0BA0CC25 /* Pods-BBFURenderKit_Tests-Info.plist */,
+				3BAB69D7A4DE4A087B6CAA3BA6D3575E /* Pods-BBFURenderKit_Tests-umbrella.h */,
+				1C134F2949EE1CEFC395B8C4436D9792 /* Pods-BBFURenderKit_Tests.debug.xcconfig */,
+				63821899DA6BB94ABF5CF8E3CA88A038 /* Pods-BBFURenderKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-BBFURenderKit_Tests";
+			path = "Target Support Files/Pods-BBFURenderKit_Tests";
+			sourceTree = "<group>";
+		};
+		C1E28F0589C4CE2AD1235E46B9265D64 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				E3DB811031F26E44AA894417C077B6E6 /* CodeResources */,
+			);
+			name = _CodeSignature;
+			path = BBFURenderKit/Classes/FURenderKit.framework/_CodeSignature;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F73EDA273166281FD3E1B23FF45B35F3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E2CC84E3220B9A7CBF05E67F638F345A /* Products */,
+				0C0000C39DD78DACD65D3D3878B4A3CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2CC84E3220B9A7CBF05E67F638F345A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E922CD3B31454A64CDAF252A0E6A23A /* BBFURenderKit */,
+				C4D18F503D425144EC33C7D0865670FA /* Pods-BBFURenderKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20A1991D13C21C286C79A8272BA5106 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BE268CC212F7372D48A3F4C808E6004F /* module.modulemap */,
+			);
+			name = Modules;
+			path = BBFURenderKit/Classes/FURenderKit.framework/Modules;
+			sourceTree = "<group>";
+		};
+		F73EDA273166281FD3E1B23FF45B35F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E149209F9513D6F8FDE45862502F99B /* BBFURenderKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08C1F3C1CE083FFAA67DBEA7EA3DB96F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59F6E080A4888CD3D089358030632D4 /* BBFURenderKit-umbrella.h in Headers */,
+				95BEFA78FCBCE91C282866992DE875A9 /* CNamaSDK.h in Headers */,
+				A1819E776576EA1BA2DD0103A26744C3 /* FUActionRecognition.h in Headers */,
+				1F915B041063BFD59B16644B179E505D /* FUAIConfig.h in Headers */,
+				D5BEE12B610F509272E24E22919FA906 /* FUAIKit.h in Headers */,
+				3B8C0BF062DF435E00D3F37A5E50F346 /* FUAISegment.h in Headers */,
+				ADA017227208D614EA88F6E5D859F945 /* FUAnimation.h in Headers */,
+				759D5FCEDB58B975AB4DA06016B95CC1 /* FUAnimoji.h in Headers */,
+				7353E64235A50F3CE0EE0A3F86FADAFA /* FUAvatar.h in Headers */,
+				474047CAB2F7E0518D2B5FB8AD5561BD /* FUAvatarColorKeys.h in Headers */,
+				E223301C049333A87A560A2673D91C44 /* FUAvatarMakeup.h in Headers */,
+				54300D74D5B016E7F3D5FEA2767F279B /* FUBackground.h in Headers */,
+				FF46995E480580F01D46F2836B928724 /* FUBeauty.h in Headers */,
+				23BA0647AE47EF17F8A2F8D5947C961C /* FUBodyBeauty.h in Headers */,
+				BC8E5A518F945F166D29C7370988C827 /* FUBodyBeautyDefineKeys.h in Headers */,
+				3D65BC65E2C461C5438BFDDCA3168B5C /* FUCameraAnimation.h in Headers */,
+				78531CCD49FB7D4E403D3DE6650C1FB6 /* FUCaptureCamera.h in Headers */,
+				BC40F416DDCAF62F6C88DD1D3C3AAC46 /* FUCLIColor.h in Headers */,
+				C0F1B2450DE71BDCDFF5273E3A1CA3C4 /* FUComicFilter.h in Headers */,
+				9835AB71084FD052F75705E2E2BF3FAB /* FUConfig.h in Headers */,
+				C467826E4F4129B5208B85F66519A815 /* FUDeformationKeys.h in Headers */,
+				0C974A9C6F704F67F2EF7EC4573C6CDE /* FUEnum.h in Headers */,
+				3D25070387C5895FAF4C21B2BE3B6163 /* FUFacepupKeys.h in Headers */,
+				2ED4995A4066C449573A0BCD91CEE508 /* FUFaceRectInfo.h in Headers */,
+				DD9583B0BD8E544AE5FF5D272AA68693 /* FUFacialFeatures.h in Headers */,
+				4BFB8203C6DF90CC215DDDED026C13ED /* FUFilterDefineKey.h in Headers */,
+				163DE141CB13B48D782BC0ACE8558319 /* FUGesture.h in Headers */,
+				39A00237E8BFC51495AB0A4CB3D2ECC3 /* FUGLContext.h in Headers */,
+				9184EE390DEBEB323F0831CF0B426B8A /* FUGLDisplayView.h in Headers */,
+				27C202F4CD1CCDF55BED8DE044B5BFD3 /* FUGreenScreen.h in Headers */,
+				36F51D1378B5C94D8C6F25BC2F7D3CEA /* FUGroupAnimation.h in Headers */,
+				A51E30EFA93F6C3E16EF7A6BAEBE581F /* FUHairBeauty.h in Headers */,
+				A8FA4234734850709E593EBDCA77AC3D /* FUHairDefineKey.h in Headers */,
+				D6013391BA93E0065B2C800CC51CD3A2 /* FUImageHelper.h in Headers */,
+				822076B572453E65452D6B34489657DE /* FUInternalCameraSetting.h in Headers */,
+				A24BF5402D0E56EF154FB0EBE71BD4C7 /* FUItem.h in Headers */,
+				29099303BF54FFAFC10047BE5066000E /* FUItem+createTexture.h in Headers */,
+				4B3A493FF2C3D786067313DACB569510 /* FUKeysDefine.h in Headers */,
+				A70B6BDD4B023D69623B9DACF2B77C38 /* FULight.h in Headers */,
+				18ACE9F52511CF8AD53038DD6C8BE9B1 /* FULightMakeup.h in Headers */,
+				53B369CFB41B2CFB90EAA673F9BBBB2A /* FULightMakeUpTextureKeyDefineKey.h in Headers */,
+				9B9F97D459E1443627F68A989A34B0F9 /* FUMakeup.h in Headers */,
+				A08A73C834ADB9FF527E39CEBD5B2413 /* FUMakeUpChildStrengthDefineKey.h in Headers */,
+				A8C85FA06C9B85716C451DF61E65CFF1 /* FUMakeUpColorsKey.h in Headers */,
+				4343D251505A870C051E062D22487886 /* FUMakeUpTextureKey.h in Headers */,
+				74C2D37FD2114FD3AED70BDF66A0CE87 /* FUMakeupValueDefine.h in Headers */,
+				95D39AEB8C5413D7AFBD86A66A292E8C /* FUMusicFilter.h in Headers */,
+				36C71F912A374580FE62C0E0C421F92C /* FUNormalConfig.h in Headers */,
+				1EA32C93CF944E6A591D457C120973BE /* FUOvonicMap.h in Headers */,
+				D8B3A70A06D1E6C8C3D7EDA82556EC83 /* FUParam.h in Headers */,
+				09BD662747351B0B41DA23D7F4891E86 /* FUPoster.h in Headers */,
+				C386B4C0DC33FD967C3E8DCC39C48CC5 /* FUQualitySticker.h in Headers */,
+				3D452ACEDFB6552A1B2FB2AAA3E65452 /* FURecordEncoder.h in Headers */,
+				9A72E8D9461627177D7D3BE1F8BD5DB7 /* FURenderableObject.h in Headers */,
+				02EF42F2D67C40CCC1729CE479890004 /* FURenderer.h in Headers */,
+				043ACA4D61004E32D521181CF9FAE90F /* FURenderIO.h in Headers */,
+				602DD28EBA088B8C81E862FFB69AFE65 /* FURenderKit.h in Headers */,
+				EAB64E275EC6C09A7A1B03051A80B348 /* FUScene.h in Headers */,
+				52A49891F1F74AB78A23F5B9EF37F1CD /* FUSceneCamera.h in Headers */,
+				F65C1F3A6624137BEBAEE977854D9210 /* FUSetupConfig.h in Headers */,
+				488E396EA9375D2820FCC234BA9357FA /* FUSticker.h in Headers */,
+				C65FE4EE1E69AB20B1E82AD4612C5FE4 /* FUStickerContainer.h in Headers */,
+				BDDC81C600AD256096A60C3BDEE8A622 /* FUStruct.h in Headers */,
+				2545BB5B4A331357C1555817A3011A4D /* metamacros.h in Headers */,
+				C21845914C679896B52FDD1879F5FD9E /* UIDevice+FURenderKit.h in Headers */,
+				32B2E769A4A517451FB2DE825BBE1E36 /* UIImage+FURenderKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5FD9C117E8C478667648FA71A1CC76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125EFD16B48601A77F282F2AF74D06F1 /* Pods-BBFURenderKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36577BEC6CBB932A1F7C7A67ECD8A54B /* BBFURenderKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E235CE821DF9CB481A78187F3C0397DC /* Build configuration list for PBXNativeTarget "BBFURenderKit" */;
+			buildPhases = (
+				08C1F3C1CE083FFAA67DBEA7EA3DB96F /* Headers */,
+				E15CA7E5A86DC83F6C0952AFA274F714 /* Sources */,
+				9F02FAEC2A0A706935DF748046516044 /* Frameworks */,
+				DB1B396ACFBF2AA3896E8D29F4282F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBFURenderKit;
+			productName = BBFURenderKit;
+			productReference = 7E922CD3B31454A64CDAF252A0E6A23A /* BBFURenderKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		6162EC5637E6B96B6EF534DBD98E8A6F /* Pods-BBFURenderKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421CC6B54A611BF0DF3EF16B10E9F366 /* Build configuration list for PBXNativeTarget "Pods-BBFURenderKit_Tests" */;
+			buildPhases = (
+				0B5FD9C117E8C478667648FA71A1CC76 /* Headers */,
+				8AD02B230DB8298206629D760B97216B /* Sources */,
+				865A43B0FE919DA670F0F8B8436C72EC /* Frameworks */,
+				8340B7C707A5B42CFEC70A6FEB38B3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74D1A6535E8C433C73FDB3AABC5E99EB /* PBXTargetDependency */,
+			);
+			name = "Pods-BBFURenderKit_Tests";
+			productName = Pods_BBFURenderKit_Tests;
+			productReference = C4D18F503D425144EC33C7D0865670FA /* Pods-BBFURenderKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E2CC84E3220B9A7CBF05E67F638F345A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36577BEC6CBB932A1F7C7A67ECD8A54B /* BBFURenderKit */,
+				6162EC5637E6B96B6EF534DBD98E8A6F /* Pods-BBFURenderKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8340B7C707A5B42CFEC70A6FEB38B3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1B396ACFBF2AA3896E8D29F4282F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AD02B230DB8298206629D760B97216B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9E11DE7A4195ACBB6D89D21AE19856 /* Pods-BBFURenderKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15CA7E5A86DC83F6C0952AFA274F714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3142C85ED10C60344B1D7C1B9F61F3C1 /* BBFURenderKit-dummy.m in Sources */,
+				753F3FD79E30E636B315D256CEBC41A7 /* CodeResources in Sources */,
+				DDD89EE8DB312A82BE3D60338AD51BBD /* FURenderKit in Sources */,
+				66273332B0AFA07A94D529E7756B37A3 /* FURenderKit快速集成文档.md in Sources */,
+				C57B9AAD462828C94382FD579BC4369B /* Info.plist in Sources */,
+				379395B77144D82C5164320A775F6E17 /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74D1A6535E8C433C73FDB3AABC5E99EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BBFURenderKit;
+			target = 36577BEC6CBB932A1F7C7A67ECD8A54B /* BBFURenderKit */;
+			targetProxy = 72B18537B75E27395B62B41E04341B96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4AB662C947136A64019B1753D3CD246A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63821899DA6BB94ABF5CF8E3CA88A038 /* Pods-BBFURenderKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBFURenderKit_Tests/Pods-BBFURenderKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBFURenderKit_Tests/Pods-BBFURenderKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		849A79A008521B9A40FD7155D31159D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C560033AE054D5E9D18ADB628EF00801 /* BBFURenderKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BBFURenderKit/BBFURenderKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBFURenderKit/BBFURenderKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBFURenderKit/BBFURenderKit.modulemap";
+				PRODUCT_MODULE_NAME = BBFURenderKit;
+				PRODUCT_NAME = BBFURenderKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA9A12DA11405508A6212A5C60A9581E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C134F2949EE1CEFC395B8C4436D9792 /* Pods-BBFURenderKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBFURenderKit_Tests/Pods-BBFURenderKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBFURenderKit_Tests/Pods-BBFURenderKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC95A34D72105B1F5C7779FEC333951F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA1FF809704C58CA1027A0FEF6463B3 /* BBFURenderKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BBFURenderKit/BBFURenderKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBFURenderKit/BBFURenderKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBFURenderKit/BBFURenderKit.modulemap";
+				PRODUCT_MODULE_NAME = BBFURenderKit;
+				PRODUCT_NAME = BBFURenderKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421CC6B54A611BF0DF3EF16B10E9F366 /* Build configuration list for PBXNativeTarget "Pods-BBFURenderKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9A12DA11405508A6212A5C60A9581E /* Debug */,
+				4AB662C947136A64019B1753D3CD246A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E235CE821DF9CB481A78187F3C0397DC /* Build configuration list for PBXNativeTarget "BBFURenderKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC95A34D72105B1F5C7779FEC333951F /* Debug */,
+				849A79A008521B9A40FD7155D31159D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
